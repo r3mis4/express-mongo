@@ -1,0 +1,27 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "Save parameters from GET to mongodb",
+  "main": "homa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3mis4/express-mongo.git"
+  },
+  "keywords": [
+    "express",
+    "mongodb"
+  ],
+  "author": "r3mis4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r3mis4/express-mongo/issues"
+  },
+  "homepage": "https://github.com/r3mis4/express-mongo#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9"
+  }
+}

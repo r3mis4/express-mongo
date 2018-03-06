@@ -1,0 +1,7 @@
+apps:
+  - script : homa.js
+    watch  : true
+    env    :
+      NODE_ENV: production
+
+
