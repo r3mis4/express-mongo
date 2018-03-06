@@ -18,4 +18,4 @@ pm2 save
 # TODO
 
 - [x] Support for second game.
-- [] Pass game type as parameter in GET request (version 2.0.0).
+- [ ] Pass game type as parameter in GET request (version 2.0.0).
