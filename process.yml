@@ -3,5 +3,6 @@ apps:
     watch  : true
     env    :
       NODE_ENV: production
+      CONNECTION_STRING: mongodb://user:pwd@server:port/db
 
 

@@ -1,7 +1,13 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
-mongoose.connect('mongodb://user:pwd@host:port/db', {
+console.log(process.env.CONNECTION_STRING)
+// COnnection string format: mongodb://user:pwd@host:port/db
+if (!process.env.CONNECTION_STRING) {
+  throw Error("CONNECTION_STRING environment variable is missing")
+  process.exit(1)
+}
+mongoose.connect(process.env.CONNECTION_STRING, {
   useMongoClient: true
 })
 mongoose.Promise = global.Promise
